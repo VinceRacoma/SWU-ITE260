@@ -1,0 +1,31 @@
+1.
+cBrands = ["ROLLS ROYCE", "ASTON MARTIN", "CADILLAC", "MERCEDES-BENZ, FERARRI"]
+cBrands.append ("VOLKSWAGON")
+cBrands.append ("PORSCHE")
+cBrands.append ("RANGE ROVER")
+print (cBrands)
+
+OUTPUT
+['ROLLS ROYCE', 'ASTON MARTIN', 'CADILLAC', 'MERCEDES-BENZ, FERARRI', 'VOLKSWAGON', 'PORSCHE', 'RANGE ROVER']
+
+2. 
+mBrands = ["Yamaha", "Honda", "harley Davidson", "kawasaki, rusi"]
+mBrands.insert(3,"Ducatti")
+del mBrands [4]
+print (mBrands)
+OUTPUT
+['Yamaha', 'Honda', 'harley Davidson', 'Ducatti']
+
+3. 
+fruits = ["apple", "banana", "mango", "grapes", "kiwi"]
+fruits [4] = "jackfruit"
+print (fruits)
+OUTPUT
+['apple', 'banana', 'mango', 'grapes', 'jackfruit']
+
+4.
+animals = ["lion", "tiger", "cat", "dog", "sealion"]
+animals.remove ("sealion")
+print (animals)
+OUTPUT
+['lion', 'tiger', 'cat', 'dog']

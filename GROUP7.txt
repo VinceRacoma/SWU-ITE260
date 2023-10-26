@@ -1,0 +1,110 @@
+attempts = 0
+
+while attempts < 5:
+    username = input('Enter your username: ')
+    password = input('Enter your password: ')
+
+    if username != 'Group7' and password != 'Lucky7':
+        attempts += 1
+        print('Incorrect credentials.')
+        if attempts >= 5:
+            print('Incorrect credentials. Check if you have Caps lock on and try again.')
+    else:
+        print("Log in")
+        
+        score = 10
+        QUESTIONS = [
+        ("1. It enables a particular set of conditions to be executed repeatedly until a condition is satisfied?\n", "for loop"),
+        ("2. A function that either take a single number and behaves like a list?\n", "range"),
+        ("3. The statement used inside the loop to exit out of the loop?\n", "break statement"),
+        ("4. It is a declaration that enables you to ignore the most recent version of any loop?\n", "continue statement"),
+        ("5. The statement that is considered a no-operation statement?\n", "pass statement"),
+       ("6. generates a set of whole numbers starting from start to stop-1..\n", "range (start, stop)"),
+        ("7. Loop inside another loop..\n", "nested loop"),
+        ("8. The Pass Statement is regarded as a no-operation statement, says that it consumes the execution cycle like a legal Python statement, but nothing actually happens. When the command pass is executed.\n", "true"),
+        ("9. If the else statement is used with a while loop, the else statement is executed when the condition becomes _______..\n", "false"),
+        ("10. Enables a specific set of conditions to be repeated until a criterion has been met.\n", "iterating by sequence index")
+  
+        ]
+        print("\033[32mSAS 11\033[0m")
+        for question, correct_answer in QUESTIONS:
+            answer = input(f"{question} \033[34mANSWER: \033[0m")
+            
+    
+            if answer.lower() == correct_answer:
+                print("\033[33mCorrect!\033[0m")
+            else:
+                print(f"\033[31mThe answer is {correct_answer}, not {answer}\033[0m")
+                score -=1
+        
+        print(f"SCORE: {score}")
+
+        score = 10
+        QUESTIONS = [
+        ("1. Control statements in a loop alter the execution sequence. When execution exits a scope, all automatic objects created in that scope are destroyed. \n", "loop control statement"),
+        ("2. It is used inside the loop to exit out of the loop.\n", "break statement"),
+        ("3. The statement used inside the loop to exit out of the loop?\n", "break statement"),
+        ("4. It allows you to bypass the current iteration of any loop.\n", "continue statement"),
+        ("5. The statement that is considered a no-operation statement?\n", "pass statement"),
+        ("6. the pass statement is considered a ___________, which means it consumes the execution cycle like a valid Python statement, but nothing happens actually when pass is executed. \n", "no-operation statement"),
+        ("7. The pass statement is much like a _______,.\n", "comment"),
+        ("8 Null is also called ______?\n", "none"),
+        ("9.The continue statement allows you to _______ the current iteration of any loop..\n", "bypass"),
+        ("10.Control statements in a loop alter the execution sequence. When execution exits a scope, all automatic objects created in that scope are _______. .\n", "destroyed")
+  
+        ]
+        print("\033[32mSAS 12\033[0m")
+        for question, correct_answer in QUESTIONS:
+            answer = input(f"{question} \033[34mANSWER: \033[0m")
+            
+    
+            if answer.lower() == correct_answer:
+                print("\033[33mCorrect!\033[0m")
+            else:
+                print(f"\033[31mThe answer is {correct_answer}, not {answer}\033[0m")
+                score -=1
+        
+        print(f"SCORE: {score}")
+
+
+        score = 10
+        QUESTIONS = [
+        ("1. Logical operator on which, true if both the operands are true . \n", "logical and"),
+        ("2.Logical operator on which, true if either of the operands is true.\n", "logical or"),
+        ("3.Logical operator on which, true if the operand is false .\n", "logical not"),
+        ("4.It determines whether two criteria are True at the same time. If both conditions are true, it returns True. If either of the conditions is false, it returns False. .\n", "and operator"),
+        ("5.Like the AND operator, examines multiple conditions. However, it returns True when one or both of the conditions are met.\n", "or operator"),
+        ("6.is only valid for one condition. True becomes False and False becomes True.. \n", "not operator"),
+        ("7. Python evaluates logical operators in the order they are listed when you mix them in an expression, which is known as _______.\n", "operator precedence"),
+        ("8 What is the precendence of NOT? \n", "high"),
+        ("9.What is the precendence of AND", "high"),
+        ("10.What is the precendence of OR .\n", "low")
+  
+        ]
+        print("\033[32mSAS 13\033[0m")
+        for question, correct_answer in QUESTIONS:
+            answer = input(f"{question} \033[34mANSWER: \033[0m")
+            
+    
+            if answer.lower() == correct_answer:
+                print("\033[33mCorrect!\033[0m")
+            else:
+                print(f"\033[31mThe answer is {correct_answer}, not {answer}\033[0m")
+                score -=1
+        
+        print(f"SCORE: {score}")
+
+        total = (score + score + score)
+
+        if total == 30:
+            print ("Perfect Score")
+        elif total >= 18:
+            print ("Passing Score")
+        elif total >= 10:
+            print("Passed")
+        elif total < 10:
+            print ("pass away")
+        else:
+            print ("fail")
+        print (username + "'s" " average " + str(total))
+        break

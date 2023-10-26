@@ -1,0 +1,31 @@
+1, 
+Name= input ("Enter name: ")
+age = int(input("Enter age: "))
+print ("Please share the information asked for:",  )
+print (Name + "," + str(age))
+
+OUTPUT
+Enter name: Nina
+Enter age: 34
+Please share the information asked for:
+Nina,34
+
+2,
+num1= int(input("First Digit: "))
+num2 = int(input("Second Didgit: "))
+Sum = num1 + num2
+print (str(num1)," + ",str(num2)," = ", (Sum))
+
+OUTPUT
+First Digit: 46
+Second Didgit: 76
+46  +  76  =  122
+
+3,
+cBrands=  ["toyota", "mazda", "lambo", "suzuki", "tesla"]
+cBrands.insert(4, "Range Rover")
+cBrands.pop(2)
+print (cBrands)
+
+OUTPUT
+['toyota', 'mazda', 'suzuki', 'Range Rover', 'tesla']

@@ -1,0 +1,83 @@
+A.
+1. x = 0
+a = 5
+b = 5
+if a &gt; 0:
+if b &lt; 0:
+x = x + 5
+elif a &gt; 5:
+x = x + 4
+else:
+x = x + 3
+else:
+x = x + 2
+print (x)
+OUTPUT
+3
+
+2. NUM1= 50
+NUM2= 500
+print(&quot;I&quot;) if NUM1 &gt; NUM2 else print(&quot;LOVE&quot;) if NUM1 == NUM2 else
+print(&quot;PYTHON&quot;)
+OUTPUT
+PYTHON
+3. x = 0
+a = 5
+b = -5
+if a &gt; 0:
+if b &lt; 0:
+x = x + 5
+
+elif a &gt; 5:
+x = x + 4
+else:
+x = x + 3
+else:
+x = x + 2
+print (x)
+OUTPUT
+5
+B. CODING TIME
+employeeFname = input(&quot;First Name: &quot;)
+employeeLname = input(&quot;Last Name: &quot;)
+wage= int(input(&quot;Enter Salary: &quot;))
+rate = (&quot;(Ratings: 1= 10%, 2= 6%, 3= 3%, 4= None)&quot;)
+print (rate)
+rate1= int(input(&quot;Enter Rating: &quot;))
+if rate1 == 1:
+bonus = 0.1 * wage
+elif rate1 == 2:
+bonus = 0.06 * wage
+elif rate1 == 3:
+bonus = 0.03 * wage
+elif rate1 == 4:
+bonus = 0 * wage
+else:
+print (&quot;none&quot;)
+space= (&quot;______________________________________________&quot;)
+print (space)
+
+print (&quot;Name: &quot; + employeeFname + &quot; &quot; + employeeLname)
+print (&quot;Salary: &quot; + str(wage))
+print (&quot;Ratings: &quot; + str(rate1))
+print (&quot;Bonus: &quot; + str(bonus))
+OUTPUT
+First Name: Vince Lowe
+Last Name: Racoma
+Enter Salary: 65000
+(Ratings: 1= 10%, 2= 6%, 3= 3%, 4= None)
+Enter Rating: 2
+______________________________________________
+Name: Vince Lowe Racoma
+Salary: 65000
+Ratings: 2
+Bonus: 3900.0
+B.
+1. if x == y and z == a:
+print(&quot;python&quot;)
+2. if x == y or z == a:
+print(&quot;python&quot;)
+3. if 1==1: print (&quot;one is equal to one!&quot;)
+4. print (&quot;Yes&quot;) if 1==1 else (&quot;No&quot;)
+5. if 1==1:
+print (&quot;one is equal to one!&quot;)

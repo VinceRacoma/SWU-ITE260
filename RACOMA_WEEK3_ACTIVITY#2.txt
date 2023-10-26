@@ -1,0 +1,58 @@
+1.
+number= int(input("enter number:"))
+if number > 0:
+  print ("positive integer")
+else:
+    print ("negative integer")
+OUTPUT 
+enter number:-8
+negative integer
+
+enter number:5
+positive integer
+
+2.
+fullName = input("Enter Full Name: ")
+sub1 = float(input("subject 1:"))
+sub2 = float(input("subject 2:"))
+sub3 = float(input("subject 3:"))
+sub4 = float(input("subject 4:"))
+sub5 = float(input("subject 5:"))
+Average = ((sub1 + sub2 + sub3 + sub4 + sub5)/5 )
+
+if Average > 85:
+  print ("with highest honor")
+elif Average >= 80:
+  print ("with high honor")
+elif Average > 75:
+  print ("passed")
+else:
+    print ("fail")
+print (fullName + " average " + str(Average)
+
+OUTPUT
+
+Enter Full Name: jimuel
+subject 1:73
+subject 2:74
+subject 3:74
+subject 4:72
+subject 5:74
+fail
+jimuel average, 73.4
+
+3.
+userName= input("Enter username: ")
+userName2= ("Vince")
+Pass= input("Enter password: ")
+Pass2= ("hehehe")
+
+if userName  == userName2 and Pass == Pass2:
+    print ("correct")
+else:
+    print ("incorrect")
+
+OUTPUT
+Enter username: Vince
+Enter password: hehehe
+correct
